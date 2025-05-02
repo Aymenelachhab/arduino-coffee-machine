@@ -26,7 +26,8 @@ Inspired by our embedded‑electronics semester project.
 ## Wiring diagram
 
 <p align="center">
-  <img src="wiring_diagram.png" width="600">
+  <img src="face.png" width="600">
+  <img src="wiring.png" width="600">
 </p>
 
 ## Firmware features

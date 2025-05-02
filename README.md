@@ -4,30 +4,29 @@
 
 Secure drink machine that **authenticates users via RFID card _or_ keypad code**, then
 lets them pour **coffee, milk, tea** or custom mixes, plus selectable sugar dose.
-Inspired by our embedded‑electronics semester project. :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}
+Inspired by our embedded‑electronics semester project.
 
-<img src="docs/lcd_menu.gif" width="500" alt="LCD menu demo">
+<img src="lcd_menu.gif" width="500" alt="LCD menu demo">
 
 ## Hardware overview
 
 | Part | Qty | Note |
 |------|-----|------|
-| Arduino Uno (or Nano) | 1 | 16 MHz, 5 V |
+| Arduino MEGA | 1 | 16 MHz, 5 V |
 | MFRC522 RFID reader | 1 | SPI |
 | 4×4 membrane keypad | 1 | Digital |
 | I2C 16×2 LCD | 1 | For menu UI |
 | HC‑SR04 ultrasonic sensor | 1 | Cup detection |
 | SG90 servo | 1 | Sugar gate |
 | 12 V peristaltic pump | 3 | Coffee / Milk / Tea |
-| 2‑channel relay module | 2 | Pumps & heater control |
-| 12 V PSU | 1 | Shared for pumps |
+| 4‑channel relay module | 1 | Pumps  control |
 
 *Full BOM in* **`hardware/bom.csv`**.
 
 ## Wiring diagram
 
 <p align="center">
-  <img src="docs/wiring_diagram.png" width="600">
+  <img src="wiring_diagram.png" width="600">
 </p>
 
 ## Firmware features
